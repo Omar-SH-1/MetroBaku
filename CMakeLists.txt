@@ -3,4 +3,7 @@ project(MetroBaku)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(MetroBaku main.cpp)
+add_executable(MetroBaku
+                         main.cpp
+                         metrobaku.h
+                         metrobaku.cpp)
