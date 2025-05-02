@@ -38,10 +38,10 @@ mkdir build && cd build
 
 # 3. Для динамической сборки
 cmake -DBUILD_SHARED_LIBS=ON ..
-    Для статической сборки
+#4. Для статической сборки
 cmake -DBUILD_SHARED_LIBS=OFF ..
 
-# 4. Сборка
+# 5. Сборка
 cmake --build .
 ```
 
