@@ -36,8 +36,10 @@ cd MetroBaku
 # 2. Создаём папку для сборки
 mkdir build && cd build
 
-# 3. Генерируем Makefile с помощью CMake
-cmake ..
+# 3. Для динамической сборки
+cmake -DBUILD_SHARED_LIBS=ON ..
+    Для статической сборки
+cmake -DBUILD_SHARED_LIBS=OFF ..
 
 # 4. Сборка
 cmake --build .
