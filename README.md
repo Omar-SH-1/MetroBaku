@@ -30,7 +30,7 @@
 
 ```bash
 # 1. Клонируем репозиторий
-git clone https://github.com/yourusername/MetroBaku.git
+git clone https://github.com/Omar-SH-1/MetroBaku.git
 cd MetroBaku
 
 # 2. Создаём папку для сборки
